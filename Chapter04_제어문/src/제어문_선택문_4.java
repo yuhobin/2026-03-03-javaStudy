@@ -25,7 +25,7 @@ public class 제어문_선택문_4 {
 			System.out.printf("%d*&d=%d\n", num1, num2, num1*num2);
 			break;
 		case"/":
-			ifnum()
+			
 		}
 	}
 
