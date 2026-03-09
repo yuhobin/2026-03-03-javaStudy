@@ -24,7 +24,7 @@ public class 제어문_선택문 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int no=89;
-		char='A';
+		char op='A';
 		switch(no/10)
 		{
 		case 10 :
