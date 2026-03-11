@@ -22,31 +22,31 @@ public class 문제풀이_제어문문제 {
 		// 2번 문제
 //		Scanner scan = new Scanner(System.in);
 //		System.out.println("정수를 입력하시오");
-//		int i = scan.nextInt();
-//		if (i % 3 == 0) {
-//			System.out.println(i + "는(은) 3의 배수입니다");
+//		int num = scan.nextInt();
+//		if (num % 3 == 0) {
+//			System.out.println(num + "는(은) 3의 배수입니다");
 //		} else {
-//			System.out.println(i + "는(은) 3의 배수가 아닙니다");
+//			System.out.println(num + "는(은) 3의 배수가 아닙니다");
 //		}
 
 		// 3번 문제
 //		Scanner scan = new Scanner(System.in);
 //		System.out.println("정수를 입력하시오");
-//		int i = scan.nextInt();
-//		if (i >= 0) {
-//			System.out.println("절댓값:" + i);
+//		int num = scan.nextInt();
+//		if (num >= 0) {
+//			System.out.println("절댓값:" + num);
 //		} else {
-//			System.out.println("절댓값:" + (-i));
+//			System.out.println("절댓값:" + (-num));
 //		}
 
 		// 4번 문제
 //		Scanner scan = new Scanner(System.in);
 //		System.out.println("년도를 입력하시오");
-//		int i = scan.nextInt();
-//		if ((i % 4 == 0) && (i % 100 != 0) || (i % 400 == 0)) {
-//			System.out.println(i + "는(은) 윤년입니다");
+//		int year = scan.nextInt();
+//		if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
+//			System.out.println(year + "는(은) 윤년입니다");
 //		} else {
-//			System.out.println(i + "는(은) 윤년이 아닙니다");
+//			System.out.println(year + "는(은) 윤년이 아닙니다");
 //		}
 
 		// 5번문제
@@ -122,11 +122,31 @@ public class 문제풀이_제어문문제 {
 
 		// 12번 문제 ***(3개씩 나눠서 출력)
 //		for (int i = 1; i <= 30; i++) {
-//			if (i % 2 == 0) 
-//				System.out.println(i);
+//			if (i % 2 == 0) {
+//				System.out.printf("%2d\t",i);
+//					if (i % 3 == 0) {
+//						System.out.println();
+//					}
 //			}
+//		}
 
+		// 13번 문제 ***무한루프에 빠짐
+//		for (int i = 1; i <= 10; i++) {
+//			if (i % 2 == 0) {
+//				i = i*(-1);
+//			}
+//		}
+//		System.out.println(i);
+
+		// 14번 문제
+//		for (int i = 1; i <= 10; i++) {
+//			if (i % 3 == 0) {
+//				continue;
+//			}
+//			System.out.println(i);
+//		}
 		
+		//15번 문제
 		
 	}
 
