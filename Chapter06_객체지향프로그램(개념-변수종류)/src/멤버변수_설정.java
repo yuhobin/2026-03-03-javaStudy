@@ -18,7 +18,7 @@ class Food{ //클래스 변수
 	// 클래스 변수 ==> 일반 변수 / 클래스 / 배열
 	static String compony = "메뉴판닷컴";
 }
-//대부분은 String => 데이터형을 조합해서 한개의 데이터형을 만든다
+//대부분은 String ==> 데이터형을 조합해서 한개의 데이터형을 만든다
 class Recipe {
 	String title;
 	String content;
