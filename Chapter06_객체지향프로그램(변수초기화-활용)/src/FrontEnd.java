@@ -5,7 +5,7 @@ public class FrontEnd {
 		// TODO Auto-generated method stub
 		// 영화 목록 출력
 		MovieSystem ms = new MovieSystem();
-		System.out.println("===========Naver 영화 목록============");
+		System.out.println("===========Naver 영화 목록=============");
 		for(Movie m:ms.movies)
 		{
 			System.out.println("영화명:"+m.title);

@@ -8,7 +8,7 @@ public class MovieSystem {
 	//초기화 => 파일을 읽어서 데이터를 저장
 	static
 	{
-		//자동으로 인식 => 파일 예외처리
+		//자동으로 인식 => 파일 예외처리..
 		try
 		{
 			StringBuffer sb = new StringBuffer();
