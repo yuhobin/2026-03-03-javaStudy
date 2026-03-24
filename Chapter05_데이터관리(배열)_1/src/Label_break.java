@@ -1,4 +1,4 @@
-// 사용빈도는 거의 없다
+// 사용빈도는 거의 없다..
 public class Label_break {
 
 	public static void main(String[] args) {
