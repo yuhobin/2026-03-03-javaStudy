@@ -41,6 +41,7 @@ class Sawon {
 		System.out.println("Sawon:info() Call..."+name);
 	}
 }
+
 public class 리플렉션_1 {
 
 	public static void main(String[] args) {
@@ -60,6 +61,10 @@ public class 리플렉션_1 {
 			m.invoke(obj); // 실제 메소드 호출
 			
 		}catch (Exception ex) {}
+		
+		
+		
+		
 	}
 
 }
