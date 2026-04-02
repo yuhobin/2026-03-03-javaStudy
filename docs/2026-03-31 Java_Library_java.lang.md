@@ -1,0 +1,26 @@
+# 📅 2026-03-31 Java_Library_java.lang
+
+### 🏷️ Topic
+문자열 라이브러리 java.lang
+
+### 📝 What I Learned
+String, StringBuffer, StringBuilder, StringTokenizer 의 쓰임에 대해 알아봤다.
+앞의 3가지를 currentTimeMillis()를 이용해서 처리시간을 비교하며 어떨때 쓰면 유용할지 비교해보았는데 StringBuilder, StringBuffer, String 순으로 처리속도가 빨랐다.
+StringTokenizer는 split과 유사한데 전자는 간단한 문자 분리에 유리하고 후자는 데이터많거나 복잡한  문자에 유리하다.
+StringTokenizer에서는 hasMoreToken() , countToken() , nextToken() 정도만 알아두면된다.
+또 날짜, 시간을 출력형식에 대해 공부했다. SimpleDateFormat 과 DecimalFormat정도 공부하면 된다.
+포장클래스 Wrapper는 데이터형을 쉽게 다루기 위해서 만들어진 클래스로 제네릭에서 사용이 가능하게 만든 클래스다.
+
+
+
+### 💡 Note
+자주 사용하는 문자열 클래스  위주로 외우고 언제 활용할지 잘 판단하고 구분하기
+
+StringBuffer와 StringBuilder의 차이는 일단 동기화 처리과정때문에 동기화를 지원하지 않는 StringBuilder가 조금 더 빠르고
+StringBuffer와 StringBuilder는 둘 다 가변 문자열을 다루지만 
+StringBuffer는 멀티스레드 환경에서안전하고 StringBuilder는 단일 스레드 환경에서 성능이 극대화된 클래스다.
+
+(면접 예상질문 중간 정리)
+오버라이딩과 오버로딩의 차이점 설명
+추상클래스와 인터페이스의 차이 설명
+StringBuffer와 StringBuilder 차이 설명
