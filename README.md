@@ -36,5 +36,5 @@
 - **Language:** Java (JDK 21)
 - **IDE:** Eclipse IDE
 - **VCS:** Git / GitHub
-- **Libraries : **Lombok (1.18.44)
-                **Jsoup (1.22.1)
+- **Libraries:** Lombok (1.18.44)
+                 Jsoup (1.22.1)
